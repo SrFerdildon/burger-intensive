@@ -3,6 +3,10 @@
 	padding: 0;
 }
 
+html {
+	scroll-behavior: smooth;
+}
+
 @font-face {
 	font-family: 'Gilroy';
 	src: url("../fonts/Gilroy-Semibold.ttf");
@@ -189,7 +193,7 @@ main .container {
 	background-image: url("../images/burgers-bg.png");
 	background-position: top center;
 	background-size: 1400px;
-	padding: 180px;
+	padding-bottom: 180px;
 }
 
 .products-items {
@@ -243,14 +247,14 @@ main .container {
 	color: #757575;
 }
 
-.button .product-button {
+.button.product-button {
 	display: flex;
 	justify-content: center;
 	width: 182px;
 	height: 62px;
 }
 
-.button .product-button sapn:first-child {
+.button.product-button span:first-child {
 	margin-right: 10px;
 }
 
